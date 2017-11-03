@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'carrierwave', '~> 1.0'
+gem "parsley-rails"
+gem 'jquery-rails'
 
 group :development, :test do
 end
