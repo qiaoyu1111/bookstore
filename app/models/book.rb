@@ -3,4 +3,5 @@ class Book < ApplicationRecord
 
   validates :name, presence: true
   validates :description, presence: true
+  validates :cover, presence: true
 end
