@@ -37,6 +37,8 @@ gem 'carrierwave', '~> 1.0'
 gem "parsley-rails"
 gem 'jquery-rails'
 gem 'pry', '~> 0.11.2'
+gem 'bootstrap-sass'
+gem 'simple_form'
 
 group :development, :test do
 end
