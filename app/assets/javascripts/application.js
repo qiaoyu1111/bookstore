@@ -15,4 +15,5 @@
 //= require jquery_ujs
 //= require parsley
 //= require bootstrap-sprockets
+//= require bootstrap/dropdown
 //= require_tree .

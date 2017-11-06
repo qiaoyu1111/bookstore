@@ -9,8 +9,14 @@
   </head>
 
   <body>
-    <%= yield %>
 
-    <%= yield  :js %>
-  </body>
+        <div class="container-fluid">
+            <%= render "common/navbar" %>
+            <%= yield %>
+            <%= yield  :js %>
+        </div>
+
+        <%= render "common/footer" %>
+
+    </body>
 </html>
