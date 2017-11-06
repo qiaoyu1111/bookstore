@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'carrierwave', '~> 1.0'
 gem "parsley-rails"
 gem 'jquery-rails'
+gem 'pry', '~> 0.11.2'
 
 group :development, :test do
 end
